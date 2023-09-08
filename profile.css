@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#pg1 {
+    background:linear-gradient(#F9E1E0,#FEADB9,#BC85A3,#5c5fa2,#779eac); 
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    border-style: dotted;
+    border-width: 12px;
+    border-color: #5c5fa2;
+    
+}
+.heading {
+    padding-top: 2%;
+    text-align: center;
+    font-weight: 650;
+    font-size: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #b561cc;
+}
+
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.circle {
+    top: -2%;
+    left: 21%;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: #fc95b3;
+    border-radius: 50%;
+    transition: 0.5s;
+   
+}
+.circle:hover{
+    transform: scale(1.2);
+}
+.circle::before{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50% 50%;
+    background: linear-gradient(#00ccff,#d500f9);
+    animation: rotate 4s  infinite;
+}
+.circle::after{
+    content: '';
+    position: absolute;
+    background: #fc95b3;
+    inset: 5px;
+    border-radius: 50%;
+}
+
+
+.circle1{
+    top: 8%;
+    left: 21%;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: #c9e9da;
+    border-radius: 50%;
+    transition: 0.5s;
+
+}
+.circle1:hover {
+    transform: scale(1.2);
+}
+.circle2{
+    top: -15.9%;
+    left: 15.5%;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: #ffe7cf;
+    border-radius: 50%;
+    transition: 0.5s;
+
+}
+.circle2:hover {
+    transform: scale(1.2);
+}
+.circle3 {
+    top: -7%;
+    left: 71.9%;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(#b9d44c, #37f0fd);
+    border-radius: 50%;
+    transition: 0.5s;
+   
+}
+.circle3:hover {
+    transform: scale(1.2);
+}
+.circle4 {
+    top: -13%;
+    left: 71%;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(#b561cc,#b30e69);
+    border-radius: 50%;
+   transition: 0.5s;
+}
+.circle4:hover {
+    transform: scale(1.2);
+}
+.circle5 {
+    top: -9%;
+    left: 77%;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(#b9d44c, #37f0fd);
+    border-radius: 50%;
+    transition: 0.5s;
+   
+}
+.circle5:hover {
+    transform: scale(1.2);
+}
+
+.rec{
+    top: 25%;
+    left: 25%;
+    position: absolute;
+    width: 755px;
+    height: 400px;
+    background:#D3C0F9;
+    border-radius: 10px;
+    background-position: center;
+    box-shadow: 0 4px 8px 0 #fc95b3 ;
+    
+}
+.rec h3 {
+    padding-top: 18%;
+    padding-left: 13%;
+    font-size: 150%;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.rec h1{
+    padding-top: 0px;
+    padding-left: 13%;
+    font-size: 550%;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #b30e69;
+}
+
+.rec p{
+    padding-top: 0px;
+    padding-left: 13%;
+    font-size: 90%;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serifs;
+}
+.rec .img {
+    background: url(https://wallpapercave.com/wp/wp9272881.jpg);
+    position: absolute;
+    margin-left: 63%;
+    margin-top: 5%;
+    background-position: center;
+    background-size: cover;
+    height: 319px;
+    width: 240px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.rec .img:hover {
+    overflow: hidden;
+    transform: scale(1.1);
+    
+}
+/*-------------------------------second----------------------------------*/
+#pg2 {
+    background:#C5AFDA;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    border-style: dashed;
+    border-color:#b30e69;
+    border-width: 12px;
+}
+.container {
+    width: 90%;
+    height: 80vh;
+    background: #fff;
+    box-shadow: 0 6px 10px 0 rgb(59, 48, 48);
+    z-index: -1;
+}
+.hh {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 550;
+    font-size: 100px;
+    color: rgb(31, 55, 49);
+    margin-top: 2%;
+    margin-left: 9%;
+}
+
+.img1 {
+    background: url(https://media.istockphoto.com/vectors/vector-business-illustration-of-modern-young-pretty-woman-sitting-on-vector-id1225341958?k=20&m=1225341958&s=612x612&w=0&h=AVkilfO0I9qDj35K4FpH3vtuAa87lWvxIxY8icba5RE=);
+    height: 77vh;
+    width: 700px;
+    margin-left: 52%;
+    margin-top: 1%;
+    border-radius: 85px;
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgb(120, 111, 111);
+    overflow: hidden;
+    z-index: 1;
+   
+}
+.text {
+    margin-left: 7%;
+    margin-top: 4%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+}
+.text p{
+  line-height: 1.8;
+}
+/*-------------------------------------THIRD-------------------------------------*/
+#pg3 {
+    background: #9799BA;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+.container1 {
+    margin-left: 10%;
+    width: 90%;
+    height: 80vh;
+    background: #fff;
+    box-shadow: 0 6px 10px 0 rgb(59, 48, 48);
+    z-index: -1;
+}
+.hhh {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 550;
+    font-size: 100px;
+    color: rgb(78, 10, 50);
+    margin-top: 2%;
+    margin-left: 55%;
+}
+.img2{
+    background: url(https://cdn.dribbble.com/users/24158/screenshots/3209162/human_rights-full.jpg);
+    height: 70vh;
+    width: 666px;
+    border-radius: 50%;
+    margin-left: -10%;
+    margin-top: 5.8%;
+    
+    position: absolute;
+    box-shadow: 0 8px 10px 0 rgb(109, 73, 73);
+    overflow: hidden;
+    z-index: 1;
+
+}
+.f {
+    background: url(https://th.bing.com/th/id/OIP.nQkrbODepsLcrNy6x_ZalgHaIp?pid=ImgDet&rs=1);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    margin-top: 4%;
+    margin-left: 40%;
+    box-shadow: 0 4px 8px 0 #070707;
+    transition: 0.5s;
+    overflow: hidden;
+}
+.f:hover{
+    transform: scale(1.1);
+}
+.t {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    color: #50b999;
+    margin-top: 2%;
+    margin-left: 45%;
+}
+
+.g {
+    background: url(https://thumbs.dreamstime.com/z/beautiful-girl-looking-forward-women-listen-to-music-headphones-illustration-vector-pop-art-comic-style-colorful-city-162013584.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    margin-top: -16.3%;
+    margin-left: 54.5%;
+    box-shadow: 0 4px 8px 0 #070707;
+    transition: 0.5s;
+    overflow: hidden;
+    position: absolute;
+}
+.g:hover{
+    transform: scale(1.1);
+}
+.t1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    color: #A585C1;
+    margin-top: -2.5%;
+    margin-left: 62%;
+}
+.h {
+    background: url(https://i.pinimg.com/736x/ce/63/c7/ce63c7c47a22c490ce8aa0853bd4c4df.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    margin-top: -16.5%;
+    margin-left: 73%;
+    box-shadow: 0 4px 8px 0 #070707;
+    transition: 0.5s;
+    overflow: hidden;
+    position: absolute;
+}
+.h:hover{
+    transform: scale(1.1);
+}
+.t2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    color: #BC85A3;
+    margin-top: -2.5%;
+    margin-left: 88%;
+}
+/*------------------------------fourth--------------------------------*/
