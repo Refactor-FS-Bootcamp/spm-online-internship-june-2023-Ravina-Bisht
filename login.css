@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#banner 
+{
+background: linear-gradient(rgba(0,0,0,0.5),#e3bada), url(mother-2.jpg);
+background-size: auto;
+background-position: center;
+height: 100vh;
+}
+.logo
+{
+    width: 180px;
+    position: absolute;
+    top: 4%;
+    left: 10%;
+    
+
+}
+.text h1{
+    top: 0%;
+    position: fixed;
+    left: 25%;
+    text-align: center;
+    font-size: 140px;
+    color: #0babcfdc;
+
+}
+.text p{
+    top: 20%;
+    position: fixed;
+    left: 40%;
+    text-align: left;
+    font-size: 40px;
+    color: #e3bada;
+
+}
+/*
+.t2{
+    top: 40%;
+    text-align: center;
+    left: 25%;
+    color: cornflowerblue;
+    font-size: 30px;
+    position: fixed;
+}
+*/
+.form-box{
+    width: 50%;
+    height: 45%;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    background:url(mother-4.jpg) ;
+    background-size: cover;
+    padding: 50px 60px 70px;
+    text-align: center;
+}
+.form-box h1{
+    padding-bottom: 10px;
+    padding-top: 5px;
+    color: #e016bb;
+    font-size: 40px;
+    text-decoration-style: none;
+}
+.input-field
+{
+padding-top: 20px;
+font-size: 35px;
+margin: 0px 0;
+align-items: center;
+
+}
+input{
+    width: 40%;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+
+}
+form p{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 17px;
+}
+.btn-field {
+    padding-top: 10px;
+    text-align: center;
+   
+}
+.btn-field button{
+    font-size: 20px;
+    border-radius: 20px;
+    background: #d3cb35;
+    height: 40px;
+    width: 100px;
+    color: indianred;
+
+}
